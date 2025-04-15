@@ -13,7 +13,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <div className="h-12 w-auto relative">
-            <Image src="/logo.png" alt="MALAB Advogados" width={200} height={48} className="h-full w-auto" priority />
+            <Image src="/logo.png" alt="MALAB Advogados" width={200} height={48} className="h-full w-auto" />
           </div>
         </Link>
 
@@ -24,19 +24,19 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link href="/" className="text-white hover:text-gray-300 transition-colors">
+          <Link href="/" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Home
           </Link>
-          <Link href="/sobre-nos" className="text-white hover:text-gray-300 transition-colors">
+          <Link href="/sobre-nos" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Sobre nós
           </Link>
-          <Link href="/areas-de-atuacao" className="text-white hover:text-gray-300 transition-colors">
+          <Link href="/areas-de-atuacao" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Áreas de atuação
           </Link>
-          <Link href="/equipe" className="text-white hover:text-gray-300 transition-colors">
+          <Link href="/equipe" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Equipe
           </Link>
-          <Link href="/contato" className="text-white hover:text-gray-300 transition-colors">
+          <Link href="/contato" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Contato
           </Link>
         </nav>

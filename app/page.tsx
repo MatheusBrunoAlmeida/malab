@@ -1,10 +1,30 @@
+'use client'
+// import Banner from "@/components/banner";
+import dynamic from "next/dynamic";
+
 export default function Home() {
+  const BannerComponent = dynamic(() => import('../components/banner'), {
+    ssr: false,
+  })
+  
+  const OfficeSectionComponent = dynamic(() => import('../components/office-section'), {
+    ssr: false,
+  })
+
+  const AreasComponent = dynamic(() => import('../components/areas'), {
+    ssr: false,
+  })
+  
+  const TeamComponent = dynamic(() => import('../components/team'), {
+    ssr: false,
+  })
+  
   return (
-    <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold">Bem-vindo à MALAB Advogados</h1>
-      <p className="mt-4 text-red-500">
-        Somos um escritório de advocacia comprometido com a excelência e dedicação aos nossos clientes.
-      </p>
+    <div>
+      <BannerComponent />
+      <OfficeSectionComponent />
+      <AreasComponent />
+      <TeamComponent />  
     </div>
   )
 }
