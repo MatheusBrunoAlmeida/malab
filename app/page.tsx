@@ -11,11 +11,19 @@ export default function Home() {
     ssr: false,
   })
 
+  const DiferenciaisComponent = dynamic(() => import('../components/diferenciais'), {
+    ssr: false,
+  })
+
   const AreasComponent = dynamic(() => import('../components/areas'), {
     ssr: false,
   })
   
   const TeamComponent = dynamic(() => import('../components/team'), {
+    ssr: false,
+  })
+
+  const FaleConoscoComponent = dynamic(() => import('../components/faleconosco'), {
     ssr: false,
   })
   
@@ -25,6 +33,8 @@ export default function Home() {
       <OfficeSectionComponent />
       <AreasComponent />
       <TeamComponent />  
+      <DiferenciaisComponent />
+      <FaleConoscoComponent />
     </div>
   )
 }
