@@ -27,7 +27,7 @@ export default function Header() {
           <Link href="/" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Home
           </Link>
-          <Link href="/sobre-nos" className="text-white font-montserrat hover:text-gray-300 transition-colors">
+          <Link href="/sobre" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Sobre nós
           </Link>
           <Link href="/areas-de-atuacao" className="text-white font-montserrat hover:text-gray-300 transition-colors">
