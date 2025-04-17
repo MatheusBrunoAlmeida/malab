@@ -1,4 +1,5 @@
 'use client'
+import FaleConosco from "@/components/faleconosco";
 // import Banner from "@/components/banner";
 import dynamic from "next/dynamic";
 
@@ -23,7 +24,7 @@ export default function Home() {
     ssr: false,
   })
 
-  const FaleConoscoComponent = dynamic(() => import('../components/faleconosco'), {
+  const ContatoComponent = dynamic(() => import('../components/contato'), {
     ssr: false,
   })
   
@@ -34,7 +35,7 @@ export default function Home() {
       <AreasComponent />
       <TeamComponent />  
       <DiferenciaisComponent />
-      <FaleConoscoComponent />
+      <FaleConosco />
     </div>
   )
 }

@@ -33,7 +33,7 @@ export default function Header() {
           <Link href="/areas" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Áreas de atuação
           </Link>
-          <Link href="/equipe" className="text-white font-montserrat hover:text-gray-300 transition-colors">
+          <Link href="/team" className="text-white font-montserrat hover:text-gray-300 transition-colors">
             Equipe
           </Link>
           <Link href="/contato" className="text-white font-montserrat hover:text-gray-300 transition-colors">
