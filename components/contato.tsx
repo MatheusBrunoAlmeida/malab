@@ -142,7 +142,10 @@ export default function Contato() {
               </div>
             </div>
             <h3 className="text-xl font-medium mb-2">Endereço</h3>
-            <p className="text-gray-400">Lorem ipsum dolor sit met, 123</p>
+            <p className="text-gray-400">
+              Av. Olegário Maciel, 2.345 – 10º andar / Conjunto 1002 – Lourdes
+              CEP: 30.180-118 – Belo Horizonte – MG
+            </p>
           </div>
 
           <div className="text-center">
@@ -165,8 +168,10 @@ export default function Contato() {
               </div>
             </div>
             <h3 className="text-xl font-medium mb-2">Suporte</h3>
-            <p className="text-gray-400">Ligue: (00) 1234-5678</p>
-            <p className="text-gray-400">E-mail: malab@gmail.com</p>
+            <p className="text-gray-400">
+              Ligue: (31) 3295-0595 | (31) 3292-8818
+            </p>
+            <p className="text-gray-400">E-mail: contato@malabadv.com.br</p>
           </div>
 
           <div className="text-center">

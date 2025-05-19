@@ -23,21 +23,38 @@ export default function Footer() {
 
           {/* Institucional column */}
           <div className="flex flex-col">
-            <h3 className="text-xl font-sora font-medium mb-6">Institucional</h3>
+            <h3 className="text-xl font-sora font-medium mb-6">
+              Institucional
+            </h3>
             <nav className="flex flex-col space-y-4">
-              <Link href="/" className="hover:text-gray-300 font-sora transition-colors">
+              <Link
+                href="/"
+                className="hover:text-gray-300 font-sora transition-colors"
+              >
                 Home
               </Link>
-              <Link href="/sobre-nos" className="hover:text-gray-300 font-sora transition-colors">
+              <Link
+                href="/sobre-nos"
+                className="hover:text-gray-300 font-sora transition-colors"
+              >
                 Sobre nós
               </Link>
-              <Link href="/areas-de-atuacao" className="hover:text-gray-300 font-sora transition-colors">
+              <Link
+                href="/areas-de-atuacao"
+                className="hover:text-gray-300 font-sora transition-colors"
+              >
                 Áreas de atuação
               </Link>
-              <Link href="/equipe" className="hover:text-gray-300 font-sora transition-colors">
+              <Link
+                href="/equipe"
+                className="hover:text-gray-300 font-sora transition-colors"
+              >
                 Equipe
               </Link>
-              <Link href="/contato" className="hover:text-gray-300 font-sora transition-colors">
+              <Link
+                href="/contato"
+                className="hover:text-gray-300 font-sora transition-colors"
+              >
                 Contato
               </Link>
             </nav>
@@ -52,23 +69,34 @@ export default function Footer() {
                   {/* <Image src="/icon.svg" alt="Endereço" width={16} height={16} /> */}
                   <MapPinned className="w-4 h-4 text-black" />
                 </div>
-                <span>Lorem ipsum dolor, 123</span>
+                <span>
+                  Av. Olegário Maciel, 2.345 – 10º andar / Conjunto 1002 –
+                  Lourdes <br />
+                  CEP: 30.180-118 – Belo Horizonte – MG
+                </span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 flex items-center justify-center rounded-full bg-white">
                   <Mail className="w-4 h-4 text-black" />
                 </div>
-                <span>malab@gmail.com</span>
+                <span>contato@malabadv.com.br</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-6 h-6 flex items-center justify-center rounded-full bg-white">
-                  <Image src="/whatsappicon.svg" alt="Telefone" width={16} height={16} />
+                  <Image
+                    src="/whatsappicon.svg"
+                    alt="Telefone"
+                    width={16}
+                    height={16}
+                  />
                 </div>
-                <span>(00) 1234-5678</span>
+                <span>
+                  (31) 3295-0595 | <br />
+                  (31) 3292-8818
+                </span>
               </div>
             </div>
           </div>
-
 
           <div>
             <h3 className="text-xl font-medium mb-6">Siga-nos</h3>
@@ -83,9 +111,23 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 absolute bottom-10 right-10 flex flex-col md:flex-row md:items-center md:justify-between">
-          <Link href="#top" className="flex items-center gap-2 text-sm mt-4 md:mt-0">
+          <Link
+            href="#top"
+            className="flex items-center gap-2 text-sm mt-4 md:mt-0"
+          >
             <span>Voltar ao topo</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 transform rotate-180">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-4 h-4 transform rotate-180"
+            >
               <path d="m6 9 6 6 6-6" />
             </svg>
           </Link>
@@ -93,8 +135,10 @@ export default function Footer() {
       </div>
 
       <div className="mt-12 flex justify-center">
-        <p className="text-sm text-gray-400">© 2025 Malab. Todos os direitos reservados.</p>
+        <p className="text-sm text-gray-400">
+          © 2025 Malab. Todos os direitos reservados.
+        </p>
       </div>
     </footer>
   );
-} 
+}
